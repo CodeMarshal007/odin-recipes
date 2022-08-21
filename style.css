@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+
+html,
+body {
+  min-height: 100%;
+  max-height: 100%;
+  background-color: rgb(245, 226, 219);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header {
+  background-color: burlywood;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.header li {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: rgb(136, 37, 37);
+  text-decoration: none;
+}
+
+.header a:hover {
+  cursor: pointer;
+  font-size: 17px;
+  color: aliceblue;
+  border-bottom: solid white 3px;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: coral;
+  margin-bottom: 0px;
+  font-family: cursive;
+}
+
+h1 + p{
+  margin: 0%;
+    text-align: center;
+      font-weight: lighter;
+      color: coral;
+      font-family: cursive;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: coral;
+  margin-bottom: 10px;
+  font-family: cursive;
+  margin-bottom: 1em;
+}
+
+#grid-container {
+  max-width: 100%;
+  padding: spx;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  margin: 5px;
+}
+
+.item p {
+  font-size: small;
+  color: brown;
+  text-align: center;
+}
+
+
+#body-container {
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+
+}
+
+#body-container div{
+  border: 3px solid coral;
+  margin: .5em;
+  padding: 10px;
+  
+}
+
+#pic-div{
+  width: 45%;
+  margin: 2px auto;
+}
+
+#pic {
+  width: 100%;
+
+}
+
+
+footer {
+  background-color: rgb(150, 121, 84);
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+}

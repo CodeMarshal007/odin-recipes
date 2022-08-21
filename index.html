@@ -4,27 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Recipes</title>
   </head>
+
   <body>
     <h1>Odin Recipes</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="./recipes/chickenRecipes.html">Rotisserie Chicken Recipes</a>
-        </li>
-        <li>
-          <a href="./recipes/strawberryCupcake.html"
-            >strawberry cupcake Recipes</a
-          >
-        </li>
-        <li>
-          <a href="./recipes/VeggieQuinoaBurgers.html">Veggie Quinoa Burgers</a>
-        </li>
-      </ul>
-    </nav>
+    <p><i>The secret ingredient is always love</i></p>
+    <br />
+    <main>
+      <div id="grid-container">
+        <div class="item">
+          <a href="./recipes/chickenRecipes.html"
+            ><img src="../images/chicken.webp" alt="Rotisserie Chicken"
+          /></a>
+          <p>Rotisserie Chicken Recipes</p>
+        </div>
+
+        <div class="item">
+          <a href="./recipes/strawberryCupcake.html">
+            <img src="../images/strawberry.webp" alt="strawberry cupcake"
+          /></a>
+          <p>Strawberry cupcake Recipes</p>
+        </div>
+
+        <div class="item">
+          <a href="./recipes/VeggieQuinoaBurgers.html"
+            ><img
+              src="../images/Veggie Quinoa Burgers.webp"
+              alt="Veggie Quinoa Burgers"
+          /></a>
+          <p>Veggie Quinoa Burgers</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;2022 Codemarshal's Odin Project. All rights reserved.</p>
+    </footer>
   </body>
 </html>
